@@ -10,3 +10,10 @@ puts %Q!He said, "#{something}"!
 # %! !もダブルクオートで囲んだことと同じになる
 something = "Bye."
 puts %!He said, "#{something}"!
+
+
+# ?を区切り文字として使う
+puts %q?He said, "Don't speak."?
+
+# { }を区切り文字として使う
+puts %q{He said, "Don't speak."}
