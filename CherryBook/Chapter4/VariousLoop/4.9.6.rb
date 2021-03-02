@@ -22,4 +22,4 @@ while true
   n = numbers.sample
   puts n
   break if n == 5
-end
+endo
