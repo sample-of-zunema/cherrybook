@@ -9,3 +9,7 @@ m = /(?<year>\d+)年(?<month>\d+)月(?<day>\d+)日/.match(text)
 m[:year]
 m[:month]
 m[:day]
+
+# 文字列で指定することもできる
+m["year"]
+
