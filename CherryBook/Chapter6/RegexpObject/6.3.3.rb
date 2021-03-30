@@ -21,3 +21,9 @@ text = '私の誕生日は1977年7月17日です。'
 if /(?<year>\d+)年(?<month>\d+)月(?<day>\d+)日/ =~ text
   puts "#{year}/#{month}/#{day}"
 end
+
+# text = '私の誕生日は1977年7月17日です。'
+# 正規表現が右辺にくるとローカル変数が作成されない
+# if text =~ /(?<year>\d+)年(?<month>\d+)月(?<day>\d+)日/
+#   puts "#{year}/#{month}/#{day}"
+# end
