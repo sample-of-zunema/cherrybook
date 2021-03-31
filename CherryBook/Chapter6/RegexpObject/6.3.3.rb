@@ -27,3 +27,11 @@ end
 # if text =~ /(?<year>\d+)年(?<month>\d+)月(?<day>\d+)日/
 #   puts "#{year}/#{month}/#{day}"
 # end
+
+
+# text = '私の誕生日は1977年7月17日です。'
+# regexp = /(?<year>\d+)年(?<month>\d+)月(?<day>\d+)日/
+# # 正規表現オブジェクトが変数に入ったりした場合も無効
+# if regexp =~ text
+#   puts "#{year}/#{month}/#{day}"
+# end
