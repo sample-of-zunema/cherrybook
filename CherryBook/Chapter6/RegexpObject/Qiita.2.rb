@@ -10,3 +10,14 @@ text = <<-TEXT
 クープ・バケットのパン、売り切れだった（><）
 TEXT
 p text.split(/\n/).grep(/クープ?.バ[ゲケ]ット/)
+
+
+chikan = <<-TEXT
+<select name="game_console">
+<option value="wii_u">Wii U</option>
+<option value="ps4">プレステ4</option>
+<option value="gb">ゲームボーイ</option>
+</select>
+TEXT
+
+# p chikan.sub(/<option value="([a-z0-9_]+)">(.+)<\/option>/,$1,$2)
