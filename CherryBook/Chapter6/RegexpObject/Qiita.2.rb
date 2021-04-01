@@ -12,12 +12,15 @@ TEXT
 p text.split(/\n/).grep(/クープ?.バ[ゲケ]ット/)
 
 
-chikan = <<-TEXT
+html = <<-HTML
 <select name="game_console">
-<option value="wii_u">Wii U</option>
+<option value="none"></option>
+<option value="wii_u" selected>Wii U</option>
 <option value="ps4">プレステ4</option>
 <option value="gb">ゲームボーイ</option>
 </select>
-TEXT
+HTML
 
-# p chikan.sub(/<option value="([a-z0-9_]+)">(.+)<\/option>/,$1,$2)
+replaced = html.gsub(/<option value="(\w+)"(?: selected)?>(.*)<\/option>/, '\1,\2')
+
+puts replaced
