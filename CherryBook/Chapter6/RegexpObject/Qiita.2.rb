@@ -11,7 +11,6 @@ text = <<-TEXT
 TEXT
 p text.split(/\n/).grep(/クープ?.バ[ゲケ]ット/)
 
-
 html = <<-HTML
 <select name="game_console">
 <option value="none"></option>
