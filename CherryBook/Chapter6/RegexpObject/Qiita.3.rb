@@ -12,3 +12,15 @@ hello('Bob')
 
 hello('Carol')
 TEXT
+
+
+puts text.gsub(/^[ \t]+$/, '')
+
+
+# text2 = <<-TEXT
+# def hello(name)
+#   puts "Hello, #{name}!"
+# end
+# TEXT
+
+# puts text2.gsub(/[ \t]+$/, '')
