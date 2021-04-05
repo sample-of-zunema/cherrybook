@@ -51,3 +51,10 @@ p text6.slice(/(\d+)年(\d+)月(\d+)日/,3)
 p text7 = '郵便番号は123-4567'
 p text7.slice!(/\d{3}-\d{4}/)
 p text7
+
+
+# split
+p text8 = '123,456-789'
+
+# 文字列で区切り文字を指定する
+p text8.split(',')
