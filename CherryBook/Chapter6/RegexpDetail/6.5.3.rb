@@ -17,3 +17,8 @@ p "Hello\nBye" =~ /Hello.Bye/
 
 # mオプションをつけると.が改行文字にもマッチする
 p "Hello\nBye" =~ /Hello.Bye/m
+
+
+
+regexp = Regexp.new('Hello.Bye', Regexp::MULTILINE)
+p "Hello\nBye" =~ regexp
