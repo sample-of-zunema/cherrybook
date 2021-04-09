@@ -7,3 +7,6 @@ p 'HELLO' =~ /hello/i
 # %r使った場合もオプションをつけられる
 p 'HELLO' =~ %r{hello}i
 
+
+regexp = Regexp.new('hello', Regexp::IGNORECASE)
+p 'HELLO' =~ regexp
