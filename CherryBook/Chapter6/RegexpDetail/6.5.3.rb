@@ -10,3 +10,10 @@ p 'HELLO' =~ %r{hello}i
 
 regexp = Regexp.new('hello', Regexp::IGNORECASE)
 p 'HELLO' =~ regexp
+
+
+# mオプションがないと.は改行文字にマッチしない
+p "Hello\nBye" =~ /Hello.Bye/
+
+# mオプションをつけると.が改行文字にもマッチする
+p "Hello\nBye" =~ /Hello.Bye/m
