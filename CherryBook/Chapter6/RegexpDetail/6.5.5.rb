@@ -16,3 +16,6 @@ p Regexp.last_match(0)
 p Regexp.last_match(1)
 p Regexp.last_match(2)
 p Regexp.last_match(3)
+
+# 最後のキャプチャを取得する
+p Regexp.last_match(-1)
