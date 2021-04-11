@@ -11,3 +11,8 @@ p Regexp.last_match
 
 # マッチした部分全体を取得する
 p Regexp.last_match(0)
+
+# １番目〜３番目のキャプチャを取得する
+p Regexp.last_match(1)
+p Regexp.last_match(2)
+p Regexp.last_match(3)
