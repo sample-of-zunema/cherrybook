@@ -9,3 +9,5 @@ text =~ /(\d+)年(\d+)月(\d+)日/
 # MatchDateオブジェクトを取得する
 p Regexp.last_match
 
+# マッチした部分全体を取得する
+p Regexp.last_match(0)
