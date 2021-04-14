@@ -9,3 +9,8 @@ mikuni = Gate.new(:mikuni)
 ticket = Ticket.new(150)
 umeda.enter(ticket)
 mikuni.exit(ticket)
+
+# 190円の切符を購入して乗車し、三国で降車する（OK）
+ticket = Ticket.new(190)
+umeda.enter(ticket)
+mikuni.exit(ticket)
