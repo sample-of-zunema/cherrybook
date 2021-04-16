@@ -21,3 +21,8 @@ end
 users.each do |user|
   puts "氏名:#{full_name(user)}、年齢:#{user[:age]}"
 end
+
+
+# ハッシュだとタイプミスしてもnilが返るだけだから不具合に気づきにくい
+p users[0][:first_name]
+p users[0][:first_mame]
