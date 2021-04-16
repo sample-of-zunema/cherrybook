@@ -8,3 +8,8 @@ class user
     @age = age
   end
 end
+
+# ユーザのデータを作成する
+users = []
+users << User.new('Alice', 'Ruby', 20)
+users << User.new('Bob', 'Python', 30)
