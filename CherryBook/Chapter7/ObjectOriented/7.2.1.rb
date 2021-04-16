@@ -26,3 +26,15 @@ end
 # ハッシュだとタイプミスしてもnilが返るだけだから不具合に気づきにくい
 p users[0][:first_name]
 p users[0][:first_mame]
+
+
+
+# 勝手に新しいキーを追加
+users[0][:country] = 'japan'
+p users
+
+
+# 勝手にfirst_mameを変更
+users[0][:first_name] = 'Carol'
+p users
+p users[0]
