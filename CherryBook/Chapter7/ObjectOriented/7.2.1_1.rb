@@ -13,3 +13,9 @@ end
 users = []
 users << User.new('Alice', 'Ruby', 20)
 users << User.new('Bob', 'Python', 30)
+
+
+# 氏名を作成するメソッド
+def full_name(user)
+  "#{user.first_name} #{user.last_name}"
+end
