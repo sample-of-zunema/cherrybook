@@ -9,3 +9,15 @@ users << { first_name: 'Bob', last_name: 'Python', age: 30 }
 users.each do |user|
   puts "氏名: #{user[:first_name]} #{user[:last_name]}、年齢:#{user[:age]}"
 end
+
+
+
+# 氏名を作成するメソッド
+def full_name(user)
+  "#{user[:first_name]} #{user[:last_name]}"
+end
+
+# ユーザを表示する
+users.each do |user|
+  puts "氏名:#{full_name(user)}、年齢:#{user[:age]}"
+end
