@@ -1,7 +1,7 @@
 # userクラスを定義する
 class User
   attr_reader :first_name, :last_name, :age
-  
+
   def initialize(first_name, last_name, age)
     @first_name = first_name
     @last_name =last_name
@@ -24,3 +24,8 @@ end
 users.each do |user|
   puts "氏名:#{full_name(user)}、年齢:#{user.age}"
 end
+
+
+# Usersクラスを導入すると、タイプミスをした時にエラーが出る
+p users[0].first_name
+p users[0].first_mame
