@@ -35,3 +35,4 @@ p users[0].first_name
 
 # 勝手にfirst_nameを変更できない
 users[0].first_name = 'Carol'
+
