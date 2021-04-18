@@ -28,4 +28,7 @@ end
 
 # Usersクラスを導入すると、タイプミスをした時にエラーが出る
 p users[0].first_name
-p users[0].first_mame
+# p users[0].first_mame
+
+# 勝手に属性を追加できない
+# users[0].country = 'japan'
