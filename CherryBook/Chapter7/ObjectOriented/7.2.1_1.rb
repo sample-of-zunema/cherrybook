@@ -32,3 +32,6 @@ p users[0].first_name
 
 # 勝手に属性を追加できない
 # users[0].country = 'japan'
+
+# 勝手にfirst_nameを変更できない
+users[0].first_name = 'Carol'
