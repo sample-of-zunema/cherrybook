@@ -22,3 +22,8 @@ users = []
 users << User.new('Alice', 'Ruby', 20)
 users << User.new('Bob', 'Python', 30)
 
+
+# ユーザのデータを表示する
+users.each do |user|
+  puts "氏名: #{user.full_name}、年齢: #{user.age}"
+end
