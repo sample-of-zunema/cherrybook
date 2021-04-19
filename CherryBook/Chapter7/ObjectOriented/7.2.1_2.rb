@@ -12,4 +12,13 @@ class User
   
   # 氏名を作成するメソッド
   def full_name
-    "#{first_name} #{la}"
+    "#{first_name} #{last_name}"
+  end
+end
+
+  
+# ユーザのデータを作成する
+users = []
+users << User.new('Alice', 'Ruby', 20)
+users << User.new('Bob', 'Python', 30)
+
