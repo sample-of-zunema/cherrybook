@@ -10,4 +10,6 @@ class User
     @age = age
   end
   
-  
+  # 氏名を作成するメソッド
+  def full_name
+    "#{first_name} #{la}"
