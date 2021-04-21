@@ -5,3 +5,6 @@ class User
 end
  user = User.new('Alice', 'Ruby', 20)
  p user.first_name
+ 
+ user.first_name = 'ありす'
+ p user.first_name
