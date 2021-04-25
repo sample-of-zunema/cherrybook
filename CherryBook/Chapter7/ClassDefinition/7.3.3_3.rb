@@ -10,5 +10,5 @@ class User
 end
 
 user = User.new('Alice')
-@nameを参照するとnilになる（つまり名前の部分に何も出ない）
+# @nameを参照するとnilになる（つまり名前の部分に何も出ない）
 p user.hello
