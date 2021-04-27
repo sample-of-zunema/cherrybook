@@ -17,4 +17,5 @@ alice = User.new('Alice')
 p alice.hello
 
 bob = User.new('Bob')
+# インスタンスによって内部のデータが異なるので、helloメソッドの結果も異なる
 p bob.hello
