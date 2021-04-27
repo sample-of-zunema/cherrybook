@@ -15,3 +15,6 @@ end
 alice = User.new('Alice')
 # インスタンスメソッドはインスタンスに（オブジェクト）に対して呼び出す
 p alice.hello
+
+bob = User.new('Bob')
+p bob.hello
