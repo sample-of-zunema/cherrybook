@@ -11,3 +11,7 @@ class User
     "Hello, I am #{@name}"
   end
 end
+
+alice = User.new('Alice')
+# インスタンスメソッドはインスタンスに（オブジェクト）に対して呼び出す
+p alice.hello
