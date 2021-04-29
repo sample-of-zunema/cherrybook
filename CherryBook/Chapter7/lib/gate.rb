@@ -4,4 +4,11 @@ class Gate
     @name = name
   end
 
+  def enter(ticket)
+  end
+
+  def exit(ticket)
+    true
+  end
+
 end
