@@ -9,3 +9,4 @@ bob = User.new('Bob', 'Python', 30)
 # どちらもfull_nameメソッドを持つが、保持しているデータが異なるので戻り値は異なる
 p alice.full_name
 p bob.full_name
+
