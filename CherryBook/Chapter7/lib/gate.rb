@@ -12,5 +12,4 @@ class Gate
     true
   end
 
-
 end
